@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sudheer459
+data:
+  course: "DevOps with AWS"
+  trainer: "sudheer"
+  github: " https://github.com/Sudheer459/k8-resources"
