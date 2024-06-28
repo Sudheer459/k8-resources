@@ -1,12 +1,12 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: environment-test
+  name: env-test
 spec:
   containers:
   - name: nginx
     image: nginx
-    environment:
+    env:
     - name: course
       value: 'kubernetes'
     - name: duration
