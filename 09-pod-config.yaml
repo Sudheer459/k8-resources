@@ -12,3 +12,8 @@ spec:
         configMapKeyRef:
           name: sudheer459
           key: course
+    - name: trainer
+      valueFrom:
+        configMapKeyRef:
+          name: sudheer459
+          key: trainer
