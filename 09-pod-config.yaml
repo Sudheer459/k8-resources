@@ -10,7 +10,7 @@ spec:
     - configMapRef:
         name: sudheer459
     # env:
-    # - name: course
+    # - name: course-1
     #   valueFrom:
     #     configMapKeyRef:
     #       name: sudheer459
